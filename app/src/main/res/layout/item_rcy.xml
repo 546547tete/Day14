@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/rb"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_toRightOf="@id/rb"
+        android:layout_height="60dp"
+        android:id="@+id/iv_rcy"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_zhongguo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_rcy"
+        android:text="2332sdasdasda"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_kucun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_rcy"
+        android:layout_below="@id/tv_zhongguo"
+        android:text="库存："
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_xiaoshou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="销售："
+        android:layout_toRightOf="@id/tv_kucun"
+        android:layout_below="@id/tv_zhongguo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
